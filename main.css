@@ -1,0 +1,59 @@
+body {
+    font-family: Graphik,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+.container {
+    width: 700px;
+    margin: 80px auto;
+    border: 1px solid #ccc;
+    height: 400px;
+}
+
+.container .tab_row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container .tab_row .tab {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .tab_content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.container .tab_content li {
+    font-size: 16px;
+    padding: 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .tab_content input {
+    font-family: Graphik,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    height: 25px;
+    width: 500px;
+    margin: 10px;
+    display: flex;
+}
+
+.container .tab_content button {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 92px;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+}
